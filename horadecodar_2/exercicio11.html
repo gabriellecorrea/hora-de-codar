@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 11</title>
+
+    <script>
+        var num1 = parseInt(prompt("Digite um valor:"));
+        var num2 = parseInt(prompt("Digite um segundo valor:"));
+
+        var oper = parseInt(prompt("Você deseja obter o resultado de qual tipo de operação? 1. Adição 2. Subtração 3. Divisão 4. Multiplicação"));
+
+        switch (oper) {
+            case 1:
+                var adicao = num1 + num2;
+                alert("O resultado da adição é: " + adicao);
+                break;
+            case 2:
+                var subtracao = num1 - num2;
+                alert("O resultado da subtração é: " + subtracao);
+                break;
+            case 3:
+                var divisao = num1 / num2;
+                alert("O resultado da divisão é: " + divisao);
+                break;
+            case 4:
+                var multiplicacao = num1 * num2;
+                alert("O resultado da multiplicação é: " + multiplicacao);
+                break;
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
