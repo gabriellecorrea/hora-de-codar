@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 6</title>
+    <script>
+
+        var alunos_aprovados = 0;
+        var outro_aluno = true;
+
+        while (outro_aluno) {
+
+            var num1 = parseFloat(prompt("Informe sua primeira nota:"));
+            var num2 = parseFloat(prompt("Informe sua segunda nota:"));
+
+            var media = (num1 + num2) / 2;
+            alert(media);
+
+            if (media >= 9.5) {
+                alunos_aprovados++;
+            }
+
+            var escolha = (prompt("Calcular a média de outro aluno? S-sim  N-não"));
+
+            if (escolha == "N" || escolha == "n") {
+                alert(alunos_aprovados);
+            } else {
+                outro_aluno;
+            }
+
+        }
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
